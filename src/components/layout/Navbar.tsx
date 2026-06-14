@@ -23,7 +23,7 @@ export default function Navbar() {
                     {mounted ? (
                         <Image
                             src={theme === "dark" ? "/logo-dark.svg" : "/logo-light.svg"}
-                            alt="FlexFile logo"
+                            alt="Morphix logo"
                             width={28}
                             height={28}
                             priority
@@ -32,7 +32,7 @@ export default function Navbar() {
                         <div className="w-7 h-7" />
                     )}
                     <span className="font-bold text-xl text-foreground tracking-tight">
-                        FlexFile
+                        Morphix
                     </span>
                 </div>
 
